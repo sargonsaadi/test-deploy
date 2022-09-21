@@ -1,0 +1,32 @@
+<html>
+  <style>
+    .menu-item {
+      display: block;
+      margin: 10px;
+      padding: 3px;
+      border: 1px solid white;
+    }
+    .menu-item:hover {
+      background-color: #ccc;
+      cursor: pointer;
+    }
+  </style>
+  <!-- nav bar with 3 menu items -->
+  <nav>
+    <ul
+      style="
+        display: flex;
+        background-color: black;
+        color: white;
+        justify-content: left;
+        padding: 10px;
+      "
+    >
+      <li class="menu-item" onclick="window.location.href='https://cnn.com'">
+        Home
+      </li>
+      <li class="menu-item">About</li>
+      <li class="menu-item">Contact</li>
+    </ul>
+  </nav>
+</html>
